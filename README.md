@@ -29,10 +29,10 @@ The default key binding is "ctrl+t",in os x is "command+t"
 
 ## Key Binding Conflicts
 
-Unfortunately there are other plugins that use "ctrl + t", this is a hard problem to solve. If Tpl works
-OK via the command palette but does nothing when you use the "ctrl + alt + t" shortcut, you have two options:
+Unfortunately there are other plugins that use "ctrl + alt + t", this is a hard problem to solve. If Tpl works
+OK via the command palette but does nothing when you use the "ctrl + alt + s" shortcut, you have two options:
 
-1. Add ```{ "keys": ["ctrl+alt+t"], "command": "tpl" }``` to your user keybindings file. This will override anything specified by a plugin.
+1. Add ```{ "keys": ["ctrl+alt+s"], "command": "tpl" }``` to your user keybindings file. This will override anything specified by a plugin.
 2. Find the offending plugin, and change the shortcut in its sublime-keymap file (will revert on updates)
 
 ### License

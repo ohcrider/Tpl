@@ -1,7 +1,7 @@
 [
     {
         "keys": [
-            "super+t"
+            "ctrl+alt+t"
         ],
         "command": "tpl"
     }
