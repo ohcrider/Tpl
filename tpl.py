@@ -26,8 +26,8 @@ class TplCommand(sublime_plugin.TextCommand):
         self.show_console_panel(edit, message)
         
     def show_console_panel(self, edit, message):
-        pt = self.view.window().get_output_panel("console_panel")
+        pt = self.view.window().get_output_panel('console_panel')
         pt.set_read_only(False) 
         pt.insert(edit, 0, message)
         pt.set_read_only(True)
-        self.view.window().run_command("show_panel", {"panel": "output.console_panel"})
+        self.view.window().run_command('show_panel', {'panel': 'output.console_panel'})
