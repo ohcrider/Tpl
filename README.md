@@ -25,7 +25,7 @@ package install list.
 
 ## Key Binding
 
-The default key binding is "ctrl+t",in os x is "command+t"
+The default key binding is "ctrl + alt + t"
 
 ## Key Binding Conflicts
 
